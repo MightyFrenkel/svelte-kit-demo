@@ -18,6 +18,7 @@
 <style>
 	header {
 		display: flex;
+		justify-content: center;
 	}
 
 	nav {

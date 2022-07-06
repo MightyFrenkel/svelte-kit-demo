@@ -27,5 +27,5 @@
 			<li>{joke}</li>
 		{/each}
 	</ul>
-	<button on:click={addJoke}> Click me!</button>
+	<button on:click={addJoke}> Get new joke!</button>
 </section>
