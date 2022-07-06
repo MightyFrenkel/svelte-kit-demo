@@ -20,7 +20,7 @@
 	}
 </script>
 
-<div>
+<section>
 	<p>Jokes by https://jokeapi.dev</p>
 	<ul>
 		{#each jokes as joke}
@@ -28,4 +28,4 @@
 		{/each}
 	</ul>
 	<button on:click={addJoke}> Click me!</button>
-</div>
+</section>

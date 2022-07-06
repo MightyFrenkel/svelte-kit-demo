@@ -10,11 +10,11 @@
 <section>
 	<img src="/favicon.png" alt="Svelte logo" />
 	<h1>Welcome to the SvelteKit demo!</h1>
-
-	<h2>SvelteKit has a couple of interessting features:</h2>
-	<ul>
-		<li>1</li>
-	</ul>
+	<p>
+		The source code for this demo can be found on <a
+			href="https://github.com/MightyFrenkel/svelte-kit-demo">Github</a
+		>
+	</p>
 </section>
 
 <style>

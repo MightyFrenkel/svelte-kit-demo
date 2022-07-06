@@ -1,19 +1,3 @@
-# create-svelte
-
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte
-
-# create a new project in my-app
-npm init svelte my-app
-```
-
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
@@ -25,14 +9,17 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+## What is Svelte?
 
-To create a production version of your app:
+In short, it's a UI framework that compiles your components to highly optimized vanilla
+JavaScript. It does not use a virtual DOM like React.
 
-```bash
-npm run build
-```
+## What is SvelteKit?
 
-You can preview the production build with `npm run preview`.
+SvelteKit is a framework for building extremely high-performance web apps.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Building an app with all the modern best practices is fiendishly complicated. Those practices
+include build optimizations, so that you load only the minimal required code; offline support;
+prefetching pages before the user initiates navigation; and configurable rendering that allows
+you to generate HTML on the server or in the browser at runtime or at build-time. SvelteKit does
+all the boring stuff for you so that you can get on with the creative part.

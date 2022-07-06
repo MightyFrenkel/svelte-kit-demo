@@ -5,7 +5,9 @@
 <header>
 	<nav>
 		<ul>
-			<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
+			<li class:active={$page.url.pathname === '/'}>
+				<a sveltekit:prefetch href="/">Home</a>
+			</li>
 			<li class:active={$page.url.pathname === '/jokes'}>
 				<a sveltekit:prefetch href="/jokes">Jokes</a>
 			</li>
@@ -16,7 +18,6 @@
 <style>
 	header {
 		display: flex;
-		justify-content: space-between;
 	}
 
 	nav {
