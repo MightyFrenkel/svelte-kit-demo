@@ -30,3 +30,45 @@ body {
 		var(--tertiary-color) 41.35%
 	);
 }
+
+header {
+	display: flex;
+	justify-content: center;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	--background: rgba(255, 255, 255, 0.7);
+}
+
+
+
+li {
+	position: relative;
+	height: 100%;
+	
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+}
+
+nav a {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	padding: 0 1em;
+	color: var(--heading-color);
+	font-weight: 700;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	transition: color 0.2s linear;
+}
+
+a:hover {
+	color: var(--accent-color);
+}
